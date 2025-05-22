@@ -110,7 +110,7 @@ az containerapp create \
 
 ```dockerfile
 # Exemplo de Dockerfile
-FROM nginx:alpine
+FROM nginx:latest
 COPY html /usr/share/nginx/html
 EXPOSE 80
 ```
