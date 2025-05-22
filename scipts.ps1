@@ -27,4 +27,4 @@ docker push blogleoregistry.azurecr.io/blog-leo-app:latest
 az containerapp env create --name blogleo-env --resource-group containerappslab03 --location eastus
 
 #Create a container app
-az containerapp create --name blogleo-app --resource-group containerappslab03 --environment blogleo-env --image blogleoregistry.azurecr.io/blog-leo-app:latest --target-port 80 --ingress external --registry-username blogleoregistry --registry-server blogleoregistry.azurecr.io --registry-password ...
+az containerapp create --name blogleo-app --resource-group containerappslab03 --environment blogleo-env --image blogleoregistry.azurecr.io/blog-leo-app:latest --target-port 80 --ingress external --registry-username blogleoregistry --registry-server blogleoregistry.azurecr.io --registry-password MjMRM7vFmIMl2vklJplUvJfpYFa+HdeX408QJybJCz+ACRA0JwvW
